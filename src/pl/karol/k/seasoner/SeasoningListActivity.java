@@ -1,11 +1,15 @@
 package pl.karol.k.seasoner;
 
+import pl.karol.k.seasoner.seasoning.ContentProvider;
+import pl.karol.k.seasoner.seasoning.SeasoningItem;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.Toast;
 import android.app.Activity;
+import android.app.Application;
 
 /**
  * An activity representing a list of Seasonings. This activity has different
@@ -47,6 +51,11 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			// 'activated' state when touched.
 			((SeasoningListFragment) getFragmentManager().findFragmentById(R.id.seasoning_list)).setActivateOnItemClick(true);
 		}
+        int resid = this.getResources().getIdentifier("seasoning4", "string", this.getPackageName());
+		System.out.println("resid: " + resid);
+		System.out.println("proof: " + R.string.seasoning1 + " " + getString(resid));
+
+		ContentProvider.populate(this);
 		Context context = getApplicationContext();
 		String message = "Wszystkiego najlepszego, Andrzeju!";
 		int duration = Toast.LENGTH_LONG;
