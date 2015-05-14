@@ -2,5 +2,36 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Szczegóły przyprawy</string>
-    
+    <string name="seasoning1">Ocet winny</string>
+    <string name="seasoning2">Bazylia</string>
+    <string name="seasoning3">Liść laurowy</string>
+    <string name="seasoning4">Kminek</string>
+    <string name="seasoning5">Kardamon</string>
+    <string name="seasoning6">Pieprz kajeński</string>
+    <string name="seasoning7">Szczypiorek</string>
+    <string name="seasoning8">Cynamon</string>
+    <string name="seasoning9">Goździki</string>
+    <string name="seasoning10">Kmin rzymski</string>
+    <string name="seasoning11">Kolandra</string>
+    <string name="seasoning12">Curry</string>
+    <string name="seasoning13">Koperek</string>
+    <string name="seasoning14">Czosnek</string>
+    <string name="seasoning15">Imbir</string>
+    <string name="seasoning16">Pieprz ziołowy</string>
+    <string name="seasoning17">Jałowiec</string>
+    <string name="seasoning18">Lubczyk</string>
+    <string name="seasoning19">Majeranek</string>
+    <string name="seasoning20">Mięta</string>
+    <string name="seasoning21">Gałka muszkatołowa</string>
+    <string name="seasoning22">Oregano</string>
+    <string name="seasoning23">Papryka</string>
+    <string name="seasoning24">Pieprz</string>
+    <string name="seasoning25">Rozmaryn</string>
+    <string name="seasoning26">Szałwia</string>
+    <string name="seasoning28">Cukier</string>
+    <string name="seasoning29">Tandoori Masala</string>
+    <string name="seasoning30">Estragon</string>
+    <string name="seasoning31">Tymianek</string>
+    <string name="seasoning32">Ocet winny</string>
+
 </resources>

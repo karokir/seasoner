@@ -48,7 +48,7 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			((SeasoningListFragment) getFragmentManager().findFragmentById(R.id.seasoning_list)).setActivateOnItemClick(true);
 		}
 		Context context = getApplicationContext();
-		String message = "Wszystkiego anjlepszego, Andrzeju!";
+		String message = "Wszystkiego najlepszego, Andrzeju!";
 		int duration = Toast.LENGTH_LONG;
 		Toast toast = Toast.makeText(context, message, duration);
 		toast.setGravity(Gravity.CENTER_VERTICAL|Gravity.CENTER_HORIZONTAL, 0, 0);

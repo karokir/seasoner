@@ -41,6 +41,37 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040000;
+        public static final int seasoning1=0x7f040002;
+        public static final int seasoning10=0x7f04000b;
+        public static final int seasoning11=0x7f04000c;
+        public static final int seasoning12=0x7f04000d;
+        public static final int seasoning13=0x7f04000e;
+        public static final int seasoning14=0x7f04000f;
+        public static final int seasoning15=0x7f040010;
+        public static final int seasoning16=0x7f040011;
+        public static final int seasoning17=0x7f040012;
+        public static final int seasoning18=0x7f040013;
+        public static final int seasoning19=0x7f040014;
+        public static final int seasoning2=0x7f040003;
+        public static final int seasoning20=0x7f040015;
+        public static final int seasoning21=0x7f040016;
+        public static final int seasoning22=0x7f040017;
+        public static final int seasoning23=0x7f040018;
+        public static final int seasoning24=0x7f040019;
+        public static final int seasoning25=0x7f04001a;
+        public static final int seasoning26=0x7f04001b;
+        public static final int seasoning28=0x7f04001c;
+        public static final int seasoning29=0x7f04001d;
+        public static final int seasoning3=0x7f040004;
+        public static final int seasoning30=0x7f04001e;
+        public static final int seasoning31=0x7f04001f;
+        public static final int seasoning32=0x7f040020;
+        public static final int seasoning4=0x7f040005;
+        public static final int seasoning5=0x7f040006;
+        public static final int seasoning6=0x7f040007;
+        public static final int seasoning7=0x7f040008;
+        public static final int seasoning8=0x7f040009;
+        public static final int seasoning9=0x7f04000a;
         public static final int title_seasoning_detail=0x7f040001;
     }
     public static final class style {
