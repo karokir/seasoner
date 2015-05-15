@@ -1,15 +1,19 @@
 package pl.karol.k.seasoner;
 
+import java.text.ParseException;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import pl.karol.k.seasoner.seasoning.ContentProvider;
-import pl.karol.k.seasoner.seasoning.SeasoningItem;
+import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.Toast;
-import android.app.Activity;
-import android.app.Application;
 
 /**
  * An activity representing a list of Seasonings. This activity has different
@@ -40,6 +44,8 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_seasoning_list);
 
+		ContentProvider.populate(this);
+
 		if (findViewById(R.id.seasoning_detail_container) != null) {
 			// The detail container view will be present only in the
 			// large-screen layouts (res/values-large and
@@ -51,16 +57,28 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			// 'activated' state when touched.
 			((SeasoningListFragment) getFragmentManager().findFragmentById(R.id.seasoning_list)).setActivateOnItemClick(true);
 		}
-		
-		ContentProvider.populate(this);
+
+		if (bDay()) {
+			showBDayMessage();
+		}
+
+		// TODO: If exposing deep links into your app, handle intents here.
+	}
+
+	private boolean bDay() {
+		Calendar calendar = Calendar.getInstance();
+		int currentMonth = calendar.get(Calendar.MONTH);
+		int currentDay = calendar.get(Calendar.DAY_OF_MONTH);
+		return (currentDay == 7 && currentMonth == 5);
+	}
+
+	private void showBDayMessage() {
 		Context context = getApplicationContext();
 		String message = getString(R.string.happybday);
 		int duration = Toast.LENGTH_LONG;
 		Toast toast = Toast.makeText(context, message, duration);
-		toast.setGravity(Gravity.CENTER_VERTICAL|Gravity.CENTER_HORIZONTAL, 0, 0);
+		toast.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL, 0, 0);
 		toast.show();
-
-		// TODO: If exposing deep links into your app, handle intents here.
 	}
 
 	/**
