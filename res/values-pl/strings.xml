@@ -3,39 +3,100 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Szczegóły przyprawy</string>
-    
     <string name="happybday">Wszystkiego najlepszego, Andrzeju!</string>
-    
-    <string name="seasoning1">Ocet winny</string>
-    <string name="seasoning2">Bazylia</string>
-    <string name="seasoning3">Liść laurowy</string>
-    <string name="seasoning4">Kminek</string>
-    <string name="seasoning5">Kardamon</string>
-    <string name="seasoning6">Pieprz kajeński</string>
-    <string name="seasoning7">Szczypiorek</string>
-    <string name="seasoning8">Cynamon</string>
-    <string name="seasoning9">Goździki</string>
-    <string name="seasoning10">Kmin rzymski</string>
-    <string name="seasoning11">Kolandra</string>
-    <string name="seasoning12">Curry</string>
-    <string name="seasoning13">Koperek</string>
-    <string name="seasoning14">Czosnek</string>
-    <string name="seasoning15">Imbir</string>
-    <string name="seasoning16">Pieprz ziołowy</string>
-    <string name="seasoning17">Jałowiec</string>
-    <string name="seasoning18">Lubczyk</string>
-    <string name="seasoning19">Majeranek</string>
-    <string name="seasoning20">Mięta</string>
-    <string name="seasoning21">Gałka muszkatołowa</string>
-    <string name="seasoning22">Oregano</string>
-    <string name="seasoning23">Papryka</string>
-    <string name="seasoning24">Pieprz</string>
-    <string name="seasoning25">Rozmaryn</string>
-    <string name="seasoning26">Szałwia</string>
-    <string name="seasoning28">Cukier</string>
-    <string name="seasoning29">Tandoori Masala</string>
-    <string name="seasoning30">Estragon</string>
-    <string name="seasoning31">Tymianek</string>
-    <string name="seasoning32">Ocet winny</string>
+
+    <string-array name="seasoning1">
+        <item>Ocet balsamiczny</item>
+    </string-array>
+    <string-array name="seasoning2">
+        <item>Bazylia</item>
+    </string-array>
+    <string-array name="seasoning3">
+        <item>Liść laurowy</item>
+    </string-array>
+    <string-array name="seasoning4">
+        <item>Kminek</item>
+    </string-array>
+    <string-array name="seasoning5">
+        <item>Kardamon</item>
+    </string-array>
+    <string-array name="seasoning6">
+        <item>Pieprz kajeński</item>
+    </string-array>
+    <string-array name="seasoning7">
+        <item>Szczypiorek</item>
+    </string-array>
+    <string-array name="seasoning8">
+        <item>Cynamon</item>
+    </string-array>
+    <string-array name="seasoning9">
+        <item>Goździki</item>
+    </string-array>
+    <string-array name="seasoning10">
+        <item>Kmin rzymski</item>
+    </string-array>
+    <string-array name="seasoning11">
+        <item>Kolandra</item>
+    </string-array>
+    <string-array name="seasoning12">
+        <item>Curry</item>
+    </string-array>
+    <string-array name="seasoning13">
+        <item>Koperek</item>
+    </string-array>
+    <string-array name="seasoning14">
+        <item>Czosnek</item>
+    </string-array>
+    <string-array name="seasoning15">
+        <item>Imbir</item>
+    </string-array>
+    <string-array name="seasoning16">
+        <item>Pieprz ziołowy</item>
+    </string-array>
+    <string-array name="seasoning17">
+        <item>Jałowiec</item>
+    </string-array>
+    <string-array name="seasoning18">
+        <item>Lubczyk</item>
+    </string-array>
+    <string-array name="seasoning19">
+        <item>Majeranek</item>
+    </string-array>
+    <string-array name="seasoning20">
+        <item>Mięta</item>
+    </string-array>
+    <string-array name="seasoning21">
+        <item>Gałka muszkatołowa</item>
+    </string-array>
+    <string-array name="seasoning22">
+        <item>Oregano</item>
+    </string-array>
+    <string-array name="seasoning23">
+        <item>Papryka</item>
+    </string-array>
+    <string-array name="seasoning24">
+        <item>Pieprz</item>
+    </string-array>
+    <string-array name="seasoning25">
+        <item>Rozmaryn</item>
+    </string-array>
+    <string-array name="seasoning26">
+        <item>Szałwia</item>
+    </string-array>
+    <string-array name="seasoning28">
+        <item>Cukier</item>
+    </string-array>
+    <string-array name="seasoning29">
+        <item>Tandoori Masala</item>
+    </string-array>
+    <string-array name="seasoning30">
+        <item>Estragon</item>
+    </string-array>
+    <string-array name="seasoning31">
+        <item>Tymianek</item>
+    </string-array>
+    <string-array name="seasoning32">
+        <item>Ocet winny</item>
+    </string-array>
 
 </resources>

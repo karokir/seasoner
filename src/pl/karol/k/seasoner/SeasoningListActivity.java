@@ -51,8 +51,8 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			// 'activated' state when touched.
 			((SeasoningListFragment) getFragmentManager().findFragmentById(R.id.seasoning_list)).setActivateOnItemClick(true);
 		}
-
-//		ContentProvider.populate(this);
+		
+		ContentProvider.populate(this);
 		Context context = getApplicationContext();
 		String message = getString(R.string.happybday);
 		int duration = Toast.LENGTH_LONG;

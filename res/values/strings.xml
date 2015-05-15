@@ -3,39 +3,100 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Seasoning Detail</string>
-
     <string name="happybday">Happy B-Day, Andrzej!</string>
-    
-    <string name="seasoning1">Balsamic Vinegar</string>
-    <string name="seasoning2">Basil</string>
-    <string name="seasoning3">Bay Leaf</string>
-    <string name="seasoning4">Caraway</string>
-    <string name="seasoning5">Cardamom</string>
-    <string name="seasoning6">Cayenne Pepper</string>
-    <string name="seasoning7">Chives</string>
-    <string name="seasoning8">Cinnamon</string>
-    <string name="seasoning9">Cloves</string>
-    <string name="seasoning10">Cumin</string>
-    <string name="seasoning11">Coriander</string>
-    <string name="seasoning12">Curry Powder</string>
-    <string name="seasoning13">Dill Weed</string>
-    <string name="seasoning14">Garlic</string>
-    <string name="seasoning15">Ginger</string>
-    <string name="seasoning16">Herbal Pepper</string>
-    <string name="seasoning17">Juniper Berries</string>
-    <string name="seasoning18">Lovage</string>
-    <string name="seasoning19">Marjoram</string>
-    <string name="seasoning20">Mint</string>
-    <string name="seasoning21">Nutmeg</string>
-    <string name="seasoning22">Oregano</string>
-    <string name="seasoning23">Paprika</string>
-    <string name="seasoning24">Pepper</string>
-    <string name="seasoning25">Rosemary</string>
-    <string name="seasoning26">Sage</string>
-    <string name="seasoning28">Sugar</string>
-    <string name="seasoning29">Tandoori Masala</string>
-    <string name="seasoning30">Tarragon</string>
-    <string name="seasoning31">Thyme</string>
-    <string name="seasoning32">Wine Vinegar</string>
-    
+
+    <string-array name="seasoning1">
+        <item>Balsamic Vinegar</item>
+    </string-array>
+    <string-array name="seasoning2">
+        <item>Basil</item>
+    </string-array>
+    <string-array name="seasoning3">
+        <item>Bay Leaf</item>
+    </string-array>
+    <string-array name="seasoning4">
+        <item>Caraway</item>
+    </string-array>
+    <string-array name="seasoning5">
+        <item>Cardamom</item>
+    </string-array>
+    <string-array name="seasoning6">
+        <item>Cayenne Pepper</item>
+    </string-array>
+    <string-array name="seasoning7">
+        <item>Chives</item>
+    </string-array>
+    <string-array name="seasoning8">
+        <item>Cinnamon</item>
+    </string-array>
+    <string-array name="seasoning9">
+        <item>Cloves</item>
+    </string-array>
+    <string-array name="seasoning10">
+        <item>Cumin</item>
+    </string-array>
+    <string-array name="seasoning11">
+        <item>Coriander</item>
+    </string-array>
+    <string-array name="seasoning12">
+        <item>Curry Powder</item>
+    </string-array>
+    <string-array name="seasoning13">
+        <item>Dill Weed</item>
+    </string-array>
+    <string-array name="seasoning14">
+        <item>Garlic</item>
+    </string-array>
+    <string-array name="seasoning15">
+        <item>Ginger</item>
+    </string-array>
+    <string-array name="seasoning16">
+        <item>Herbal Pepper</item>
+    </string-array>
+    <string-array name="seasoning17">
+        <item>Juniper Berries</item>
+    </string-array>
+    <string-array name="seasoning18">
+        <item>Lovage</item>
+    </string-array>
+    <string-array name="seasoning19">
+        <item>Marjoram</item>
+    </string-array>
+    <string-array name="seasoning20">
+        <item>Mint</item>
+    </string-array>
+    <string-array name="seasoning21">
+        <item>Nutmeg</item>
+    </string-array>
+    <string-array name="seasoning22">
+        <item>Oregano</item>
+    </string-array>
+    <string-array name="seasoning23">
+        <item>Paprika</item>
+    </string-array>
+    <string-array name="seasoning24">
+        <item>Pepper</item>
+    </string-array>
+    <string-array name="seasoning25">
+        <item>Rosemary</item>
+    </string-array>
+    <string-array name="seasoning26">
+        <item>Sage</item>
+    </string-array>
+    <string-array name="seasoning28">
+        <item>Sugar</item>
+    </string-array>
+    <string-array name="seasoning29">
+        <item>Tandoori Masala</item>
+    </string-array>
+    <string-array name="seasoning30">
+        <item>Tarragon</item>
+    </string-array>
+    <string-array name="seasoning31">
+        <item>Thyme</item>
+    </string-array>
+    <string-array name="seasoning32">
+        <item>Wine Vinegar</item>
+    </string-array>
+
 </resources>
