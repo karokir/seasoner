@@ -6,20 +6,23 @@ package pl.karol.k.seasoner.seasoning;
 public final class SeasoningItem {
 	
 	public String id;
-	public String nameEn;
-	public String namePl;
+	public String name;
+	public SeasoningType type;
 	public String description;
 	public String use;
 	public String tip;
 
-	public SeasoningItem(String id, String nameEn, String namePl, String desc, String use, String tip) {
+	public SeasoningItem(String id, String name, String type, String desc, String use, String tip) {
 		this.id = id;
-		this.nameEn = nameEn;
-		this.description = "[ " + id + " : " + nameEn + " ]";
+		this.name = name;
+		this.type = SeasoningType.resolveType(type);
+		this.description = desc;
+		this.use = use;
+		this.tip = tip;
 	}
 
 	@Override
 	public String toString() {
-		return nameEn;
+		return name;
 	}
 }

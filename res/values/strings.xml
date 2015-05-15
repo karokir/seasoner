@@ -7,96 +7,234 @@
 
     <string-array name="seasoning1">
         <item>Balsamic Vinegar</item>
+        <item>sauce</item>
+        <item>Made from a reduction of cooked grape juice, and used as a condiment.</item>
+        <item>In salad dressings, dips, marinades, reductions and sauces.</item>
+        <item>Dissolve sugar in balsamic vinegar and use such dressing to season strawberries (e.g. sandwiches or salad with riccota, rucola, and strawberries).</item>
     </string-array>
     <string-array name="seasoning2">
         <item>Basil</item>
+        <item>herb</item>
+        <item>Belonging to the mint family this herb is one of the most widely used.</item>
+        <item>Great for tomato sauces, pesto, and vinaigrettes; also: eggplant or zucchini.</item>
+        <item>Do not add too early or it will loose both colour and flavour; fresh basil leaves have a whole defferent taste than the dried ones - try making a tomato salad and season it only with fresh basil.</item>
     </string-array>
     <string-array name="seasoning3">
         <item>Bay Leaf</item>
+        <item>other</item>
+        <item>Dried leaves of the laurel shrub.</item>
+        <item>Adds a woodsy background note to soups, stews, stocks, sauces, marinades, and such.</item>
+        <item>Take it out when the meal is ready.</item>
     </string-array>
     <string-array name="seasoning4">
         <item>Caraway</item>
+        <item>spice</item>
+        <item>Dried aromatic seeds from herb of the carrot family.</item>
+        <item>In rye bread, sauerkraut, cakes, and cookies, also in cheese.</item>
+        <item>Under no circumstances treat me with caraway-seasoned bread (unless you really wish to see me spit).</item>
     </string-array>
     <string-array name="seasoning5">
         <item>Cardamom</item>
+        <item>spice</item>
+        <item>Seeds belonging to the ginger family.</item>
+        <item>The seeds are used for pickling, and assorted pastries; great for coffee!</item>
+        <item>Crush the seeds and mix with ground coffee that you put into coffee-maker.</item>
     </string-array>
     <string-array name="seasoning6">
         <item>Cayenne Pepper</item>
+        <item>spice</item>
+        <item>Made from dried and ground red chili peppers. Adds a sweet heat to soups, braises, and spice mixes.</item>
+        <item>Perfect for Mexican cuisine and dark meat.</item>
+        <item>Easy on it, or it might get too hot.</item>
     </string-array>
     <string-array name="seasoning7">
         <item>Chives</item>
+        <item>other</item>
+        <item>Long green leaves. Has a mild onion-like flavor.</item>
+        <item>As a garnish, in soups or sauces, in salads, egg or potato dishes, with cottage cheese etc.</item>
+        <item>Can be used fresh or freeze dried.</item>
     </string-array>
     <string-array name="seasoning8">
         <item>Cinnamon</item>
+        <item>spice</item>
+        <item>Bark from various trees of the cinnamon family.</item>
+        <item>Ground for bake goods or whole for pickles, hot drinks, and preserves.</item>
+        <item>If there are apples inside, it probably won\'t hurt to add some cinnamon.</item>
     </string-array>
     <string-array name="seasoning9">
         <item>Cloves</item>
+        <item>spice</item>
+        <item>Dried flower buds of the clove tree, rich and pungent in flavor.</item>
+        <item>In pickling, baked hams, stocks, desserts, marinades, and spiced drinks.</item>
+        <item>Irreplaceable in mulled wine or beer.</item>
     </string-array>
     <string-array name="seasoning10">
         <item>Cumin</item>
+        <item>spice</item>
+        <item>Member of the carrot family. Aromatic seeds. Warm bitter flavor.</item>
+        <item>In chili powders, pickles, spare ribs, and other meat dishes.</item>
+        <item>Avoid if inviting me for dinner.</item>
     </string-array>
     <string-array name="seasoning11">
         <item>Coriander</item>
+        <item>herb</item>
+        <item>This herb of the carrot family, has the flavor of sage and lemon peel.</item>
+        <item>Pickles, oriental dishes, curried dishes, and meat dishes.</item>
+        <item>Cannot tell - don\'t have much experince with it.</item>
     </string-array>
     <string-array name="seasoning12">
         <item>Curry Powder</item>
+        <item>mix</item>
+        <item>A blend of India spices of varying proportions. Usually containing turmeric, garlic, coriander, cumin, and ginger.</item>
+        <item>To make curry sauce; flavor meats, rice , poultry, and seafood with an oriental touch.</item>
+        <item>Add some when boiling rice to obtain yellow shade.</item>
     </string-array>
     <string-array name="seasoning13">
         <item>Dill Weed</item>
+        <item>other</item>
+        <item>Aromatic herb pertaining to the carrot family.</item>
+        <item>Good with fish, potatoes, soups, and sauces, especially those cream-based.</item>
+        <item>Can be used fresh or freeze dried.</item>
     </string-array>
     <string-array name="seasoning14">
         <item>Garlic</item>
+        <item>other</item>
+        <item>Flavored bulb of the onion family; available in powder, salt, minced, or chopped.</item>
+        <item>Used in almost any type of sauce for meats, seafood, or poultry. Great for pastas, soups, etc.</item>
+        <item>If you\'re planning on putting spinach in it, you should probably start with a clove of garlic.</item>
     </string-array>
     <string-array name="seasoning15">
         <item>Ginger</item>
+        <item>spice</item>
+        <item>Dried pungent root of a plant grown in the Far East.</item>
+        <item>In pickles, chutney, and preserves. Perfect for many oriental dishes, to season meat and/or sauces. Goes very well with dishes containing mango, coconut milk, pineapple etc. And pumpkin!</item>
+        <item>Fresh ginger root tastes amazingly, but is also VERY hot - use with care. Needs peeling and then either grating or mincing.</item>
     </string-array>
     <string-array name="seasoning16">
         <item>Herbal Pepper</item>
+        <item>mix</item>
+        <item>Composed of coriander, cumin, marjoram, and other popular spices and herbs; commonly used in Polish cuisine.</item>
+        <item>Meat, marinades, sauces.</item>
+        <item>Very universal blend - so be carefull not to overuse, or you\'ll end up with all youe meals tasting alike.</item>
     </string-array>
     <string-array name="seasoning17">
         <item>Juniper Berries</item>
+        <item>other</item>
+        <item>Dried berries of the evergreen shrub.</item>
+        <item>In sauerkraut, the making of gin, and many game dishes.</item>
+        <item>Try adding some to a stew/goulash.</item>
     </string-array>
     <string-array name="seasoning18">
         <item>Lovage</item>
+        <item>herb</item>
+        <item>Its flavor and smell is somewhat similar to celery. It used to be belived to bring good luck in love.</item>
+        <item>The leaves can be used in salads, or to make soup or season broths.</item>
+        <item>Maggi seasoning sauce is basically a lovage extract - so whereever you feel like using artificial sauce, you can replace it with lovage.</item>
     </string-array>
     <string-array name="seasoning19">
         <item>Marjoram</item>
+        <item>herb</item>
+        <item>This herb belonging to the mint family is potent in flavor.</item>
+        <item>Poultry stuffing, sausage, stews, sauces, soups, veal dishes, meat dishes, potato dishes, and most Italian sauces; great whereever there are tomatoes.</item>
+        <item>Do not add too early to boiling sauce or it will loose both colour and flavour.</item>
     </string-array>
     <string-array name="seasoning20">
         <item>Mint</item>
+        <item>herb</item>
+        <item>Cool pungent flavored herb.</item>
+        <item>Not only as a garnish; use in lamb dishes, or e.g. in zucchini cream soup.</item>
+        <item>Compliments both sweet and savory dishes.</item>
     </string-array>
     <string-array name="seasoning21">
         <item>Nutmeg</item>
+        <item>spice</item>
+        <item>From the nutmeg tree this kernel of fruit is one of the oldest of known spices.</item>
+        <item>In cream soups, and sauces, and a wide variety of desserts, béchamel sauce and shepherd\'s pie.</item>
+        <item>More aromatic when freshly crushed or grated.</item>
     </string-array>
     <string-array name="seasoning22">
         <item>Oregano</item>
+        <item>herb</item>
+        <item>Wild marjoram.</item>
+        <item>In Italian dishes, soups or sauces, meat stews, and in bean dishes.</item>
+        <item>Do not add too early or it will loose both colour and flavour.</item>
     </string-array>
     <string-array name="seasoning23">
         <item>Paprika</item>
+        <item>spice</item>
+        <item>Adds a sweet note and a red color; and a hot aftertaste when you choose  a spicy version labeled hot paprika.</item>
+        <item>Used in stews, sauces, marinades, for meat seasoning.</item>
+        <item>Ingredient in many spice blends, so do not overuse when combining e.g with herbal pepper.</item>
     </string-array>
     <string-array name="seasoning24">
         <item>Pepper</item>
+        <item>spice</item>
+        <item>Black pepper is the immature berries. White pepper is the mature berries with the hull removed.</item>
+        <item>Whole in stocks, and pickling. Ground in most other dishes.</item>
+        <item>White pepper is more delicate.</item>
     </string-array>
     <string-array name="seasoning25">
         <item>Rosemary</item>
+        <item>herb</item>
+        <item>Belonging to the mint family.</item>
+        <item>Stuffing, roasted/grilled meat such as lamb, pork, beef, poultry, and wild game. Great with eggs, beans, and potatoes.</item>
+        <item>If possible, try using fresh leaves!</item>
     </string-array>
     <string-array name="seasoning26">
         <item>Sage</item>
+        <item>herb</item>
+        <item>A dried leaf of a shrub belonging to the mint family. Pine-like flavor, with more lemony and eucalyptus notes than rosemary.</item>
+        <item>Strong in flavor. Used to season stuffing, pork, poultry, and veal dishes.</item>
+        <item>If putting into sauce or soup, do not add too early.</item>
     </string-array>
     <string-array name="seasoning28">
         <item>Sugar</item>
+        <item>other</item>
+        <item>Pretty self-expainatory, don\'t you think?</item>
+        <item>Secret ingredient to a perfect tomato sauce: ~1 teaspoon, maybe less, per a can (400g-450g) of chopped tomatoes.</item>
+        <item>Experiment! Try using cane sugar e.g. adding to oriental sauces.</item>
     </string-array>
     <string-array name="seasoning29">
         <item>Tandoori Masala</item>
+        <item>mix</item>
+        <item>A blend of variety of India spices of different proportions.</item>
+        <item>All varieties of dark meat and sauces.</item>
+        <item>Spread a pinch over pierogi with meat filling!</item>
     </string-array>
     <string-array name="seasoning30">
         <item>Tarragon</item>
+        <item>herb</item>
+        <item>Aromatic leaves of a bitter flavor.</item>
+        <item>Béarnaise sauce, egg, seafood, and poultry dishes; also: great with zucchini and spinach.</item>
+        <item>If putting into sauce or soup, do not add too early, or it will loose its aroma and flavour.</item>
     </string-array>
     <string-array name="seasoning31">
         <item>Thyme</item>
+        <item>herb</item>
+        <item>A rich flavored herb, kind of woodsy.</item>
+        <item>Seafood chowders, sauces, stocks, and meat dishes.</item>
+        <item>If putting into sauce, do not add too early.</item>
     </string-array>
     <string-array name="seasoning32">
         <item>Wine Vinegar</item>
+        <item>sauce</item>
+        <item>Made from red or white wine, characterised by acidic taste.</item>
+        <item>In food preparation, in particular in pickling processes, marinades, vinaigrettes, and other salad dressings; an ingredient in sauces.</item>
+        <item>Do not overuse; if you do, then it\'s the same like with salt - cannot be undone.</item>
     </string-array>
-
+    <string-array name="seasoning33">
+        <item>Herbes de Provence</item>
+        <item>mix</item>
+        <item>A mixture of dried herbs typical of the Provence region of southeast France.Commercial mixtures typically contain basil, savory, marjoram, rosemary, thyme, oregano, and/or other herbs.</item>
+        <item>To flavour grilled foods such as fish and meat, as well as vegetable stews. The mixture can be added to foods before or during cooking or mixed with cooking oil prior to cooking so as to infuse the flavour into the cooked food. They are rarely added after cooking is complete.</item>
+        <item>Perfect for Italiano-type tomato-based sauces.</item>
+    </string-array>
+    <string-array name="seasoning34">
+        <item>Soy Sauce</item>
+        <item>sauce</item>
+        <item>Made from soy beans.</item>
+        <item>Used in many oriental dishes.</item>
+        <item>Use light version for poultry and fish, dark version - for pork, beef and other \'dark\' meat. Be careful - it\'s quite salty.</item>
+    </string-array>
+    
 </resources>

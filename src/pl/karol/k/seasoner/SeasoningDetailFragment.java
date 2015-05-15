@@ -52,7 +52,7 @@ public class SeasoningDetailFragment extends Fragment {
 
 		// Show the dummy content as text in a TextView.
 		if (mItem != null) {
-			((TextView) rootView.findViewById(R.id.seasoning_detail)).setText(mItem.nameEn + "\n" + mItem.description);
+			((TextView) rootView.findViewById(R.id.seasoning_detail)).setText(mItem.name + "\n" + mItem.description);
 		}
 
 		return rootView;
