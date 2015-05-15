@@ -3,6 +3,9 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Seasoning Detail</string>
+
+    <string name="happybday">Happy B-Day, Andrzej!</string>
+    
     <string name="seasoning1">Balsamic Vinegar</string>
     <string name="seasoning2">Basil</string>
     <string name="seasoning3">Bay Leaf</string>

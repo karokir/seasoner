@@ -5,10 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import pl.karol.k.seasoner.R;
 import pl.karol.k.seasoner.SeasoningListActivity;
-
-import android.app.Application;
 
 /**
  * Helper class for providing sample content for user interfaces created by
@@ -27,12 +24,15 @@ public class ContentProvider {
 	public static Map<String, SeasoningItem> ITEM_MAP = new HashMap<String, SeasoningItem>();
 
 	public static void populate(SeasoningListActivity application) {
+		String packageName = application.getPackageName();
+		String resourceType = "string";
 		for (int i = 1; i < 33; i++) {
-			int resId = application.getResources().getIdentifier("seasoning" + i, "string", application.getPackageName());
-			if(resId == 0) {
+			int resId = application.getResources().getIdentifier("seasoning" + i, resourceType, packageName);
+			if (resId == 0) {
 				continue;
 			}
-			addItem(new SeasoningItem(Integer.toString(i), application.getString(resId), "seasoning" + i, "seasoning" + i, "seasoning" + i, "seasoning" + i));
+			String seasoning = application.getString(resId);
+			addItem(new SeasoningItem(Integer.toString(i), seasoning, "seasoning" + i, "seasoning" + i, "seasoning" + i, "seasoning" + i));
 		}
 	}
 

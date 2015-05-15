@@ -51,13 +51,10 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			// 'activated' state when touched.
 			((SeasoningListFragment) getFragmentManager().findFragmentById(R.id.seasoning_list)).setActivateOnItemClick(true);
 		}
-        int resid = this.getResources().getIdentifier("seasoning4", "string", this.getPackageName());
-		System.out.println("resid: " + resid);
-		System.out.println("proof: " + R.string.seasoning1 + " " + getString(resid));
 
-		ContentProvider.populate(this);
+//		ContentProvider.populate(this);
 		Context context = getApplicationContext();
-		String message = "Wszystkiego najlepszego, Andrzeju!";
+		String message = getString(R.string.happybday);
 		int duration = Toast.LENGTH_LONG;
 		Toast toast = Toast.makeText(context, message, duration);
 		toast.setGravity(Gravity.CENTER_VERTICAL|Gravity.CENTER_HORIZONTAL, 0, 0);

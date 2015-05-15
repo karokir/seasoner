@@ -3,6 +3,9 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Szczegóły przyprawy</string>
+    
+    <string name="happybday">Wszystkiego najlepszego, Andrzeju!</string>
+    
     <string name="seasoning1">Ocet winny</string>
     <string name="seasoning2">Bazylia</string>
     <string name="seasoning3">Liść laurowy</string>
