@@ -43,7 +43,9 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 		setContentView(R.layout.activity_seasoning_list);
 
 		if (savedInstanceState == null) {
-			ContentProvider.populateItemContainers(this);
+			if(ContentProvider.ITEMS.isEmpty()) {
+				ContentProvider.populateItemContainers(this);
+			}
 		}
 
 		if (findViewById(R.id.seasoning_detail_container) != null) {
