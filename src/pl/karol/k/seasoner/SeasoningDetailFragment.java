@@ -2,13 +2,15 @@ package pl.karol.k.seasoner;
 
 import android.os.Bundle;
 import android.app.Fragment;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import pl.karol.k.seasoner.seasoning.ContentProvider;
 import pl.karol.k.seasoner.seasoning.SeasoningItem;
+import pl.karol.k.seasoner.util.ContentProvider;
+import pl.karol.k.seasoner.util.SeasoningDecorator;
 
 /**
  * A fragment representing a single Seasoning detail screen. This fragment is
@@ -39,9 +41,6 @@ public class SeasoningDetailFragment extends Fragment {
 		super.onCreate(savedInstanceState);
 
 		if (getArguments().containsKey(ARG_ITEM_ID)) {
-			// Load the dummy content specified by the fragment
-			// arguments. In a real-world scenario, use a Loader
-			// to load content from a content provider.
 			mItem = ContentProvider.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
 		}
 	}
@@ -51,7 +50,9 @@ public class SeasoningDetailFragment extends Fragment {
 		View rootView = inflater.inflate(R.layout.fragment_seasoning_detail, container, false);
 
 		if (mItem != null) {
-			((TextView) rootView.findViewById(R.id.seasoning_detail)).setText(mItem.name + "\n" + mItem.description);
+			SeasoningDecorator seasoningDecorator = new SeasoningDecorator(mItem);
+			String formattedSeasoning = seasoningDecorator.getFormattedString();
+			((TextView) rootView.findViewById(R.id.seasoning_detail)).setText(Html.fromHtml(formattedSeasoning));
 		}
 
 		return rootView;

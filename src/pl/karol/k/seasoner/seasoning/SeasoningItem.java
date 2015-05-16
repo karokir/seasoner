@@ -3,8 +3,8 @@ package pl.karol.k.seasoner.seasoning;
 /**
  * A dummy item representing a piece of content.
  */
-public final class SeasoningItem {
-	
+public final class SeasoningItem implements Comparable<SeasoningItem> {
+
 	public String id;
 	public String name;
 	public SeasoningType type;
@@ -24,5 +24,13 @@ public final class SeasoningItem {
 	@Override
 	public String toString() {
 		return name;
+	}
+
+	@Override
+	/**
+	 * compares lexicographically by name
+	 */
+	public int compareTo(SeasoningItem another) {
+		return this.name.compareTo(another.name);
 	}
 }

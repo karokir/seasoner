@@ -1,9 +1,12 @@
-package pl.karol.k.seasoner.seasoning;
+package pl.karol.k.seasoner.util;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import pl.karol.k.seasoner.seasoning.SeasoningItem;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -22,10 +25,10 @@ public final class ContentProvider {
 
 	private static final int minResourceId = 1;
 	private static final int maxResourceIdPlus1 = 35;
-	private static String resourcePrefix = "seasoning";
+	private static String resourceNamePrefix = "seasoning";
 	private static final String resourceType = "array";
 
-	public static void populate(Activity activity) {
+	public static void populateItemContainers(Activity activity) {
 		String packageName = activity.getPackageName();
 		Resources resources = activity.getResources();
 		for (int i = minResourceId; i < maxResourceIdPlus1; i++) {
@@ -37,10 +40,11 @@ public final class ContentProvider {
 			SeasoningItem seasoningItem = buildItem(Integer.toString(i), seasoningDetails);
 			addItem(seasoningItem);
 		}
+		Collections.sort(ITEMS);
 	}
 
 	private static int resolveResourceId(Resources resources, String packageName, int i) {
-		return resources.getIdentifier(resourcePrefix  + i, resourceType, packageName);
+		return resources.getIdentifier(resourceNamePrefix + i, resourceType, packageName);
 	}
 
 	private static boolean invalidResourceId(int resourceId) {

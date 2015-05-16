@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import pl.karol.k.seasoner.seasoning.ContentProvider;
 import pl.karol.k.seasoner.seasoning.SeasoningItem;
+import pl.karol.k.seasoner.util.ContentProvider;
 
 /**
  * A list fragment representing a list of Seasonings. This fragment also

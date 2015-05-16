@@ -1,13 +1,8 @@
 package pl.karol.k.seasoner;
 
-import java.text.ParseException;
-import java.text.ParsePosition;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
-import pl.karol.k.seasoner.seasoning.ContentProvider;
-import android.annotation.SuppressLint;
+import pl.karol.k.seasoner.util.ContentProvider;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -39,22 +34,21 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 	 */
 	private boolean mTwoPane;
 
+	private final int bDayDay = 7;
+	private final int bDayMonth = 5;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_seasoning_list);
 
-		ContentProvider.populate(this);
+		if (savedInstanceState == null) {
+			ContentProvider.populateItemContainers(this);
+		}
 
 		if (findViewById(R.id.seasoning_detail_container) != null) {
-			// The detail container view will be present only in the
-			// large-screen layouts (res/values-large and
-			// res/values-sw600dp). If this view is present, then the
-			// activity should be in two-pane mode.
 			mTwoPane = true;
 
-			// In two-pane mode, list items should be given the
-			// 'activated' state when touched.
 			((SeasoningListFragment) getFragmentManager().findFragmentById(R.id.seasoning_list)).setActivateOnItemClick(true);
 		}
 
@@ -62,14 +56,13 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			showBDayMessage();
 		}
 
-		// TODO: If exposing deep links into your app, handle intents here.
 	}
 
 	private boolean bDay() {
 		Calendar calendar = Calendar.getInstance();
 		int currentMonth = calendar.get(Calendar.MONTH);
 		int currentDay = calendar.get(Calendar.DAY_OF_MONTH);
-		return (currentDay == 7 && currentMonth == 5);
+		return (currentDay == bDayDay && currentMonth == bDayMonth);
 	}
 
 	private void showBDayMessage() {
@@ -88,18 +81,12 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 	@Override
 	public void onItemSelected(String id) {
 		if (mTwoPane) {
-			// In two-pane mode, show the detail view in this activity by
-			// adding or replacing the detail fragment using a
-			// fragment transaction.
 			Bundle arguments = new Bundle();
 			arguments.putString(SeasoningDetailFragment.ARG_ITEM_ID, id);
 			SeasoningDetailFragment fragment = new SeasoningDetailFragment();
 			fragment.setArguments(arguments);
 			getFragmentManager().beginTransaction().replace(R.id.seasoning_detail_container, fragment).commit();
-
 		} else {
-			// In single-pane mode, simply start the detail activity
-			// for the selected item ID.
 			Intent detailIntent = new Intent(this, SeasoningDetailActivity.class);
 			detailIntent.putExtra(SeasoningDetailFragment.ARG_ITEM_ID, id);
 			startActivity(detailIntent);
