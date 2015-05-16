@@ -5,11 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import android.app.Activity;
 import android.content.res.Resources;
 
-import pl.karol.k.seasoner.SeasoningListActivity;
-
-public class ContentProvider {
+public final class ContentProvider {
 
 	/**
 	 * An array of sample seasonings.
@@ -21,18 +20,35 @@ public class ContentProvider {
 	 */
 	public static Map<String, SeasoningItem> ITEM_MAP = new HashMap<String, SeasoningItem>();
 
-	public static void populate(SeasoningListActivity application) {
-		String packageName = application.getPackageName();
-		String resourceType = "array";
-		Resources resources = application.getResources();
-		for (int i = 1; i < 35; i++) {
-			int resId = resources.getIdentifier("seasoning" + i, resourceType, packageName);
-			if (resId == 0) {
+	private static final int minResourceId = 1;
+	private static final int maxResourceIdPlus1 = 35;
+	private static String resourcePrefix = "seasoning";
+	private static final String resourceType = "array";
+
+	public static void populate(Activity activity) {
+		String packageName = activity.getPackageName();
+		Resources resources = activity.getResources();
+		for (int i = minResourceId; i < maxResourceIdPlus1; i++) {
+			int resourceId = resolveResourceId(resources, packageName, i);
+			if (invalidResourceId(resourceId)) {
 				continue;
 			}
-			String[] seasoningDetails = resources.getStringArray(resId);
-			addItem(new SeasoningItem(Integer.toString(i), seasoningDetails[0], seasoningDetails[1], seasoningDetails[2], seasoningDetails[3], seasoningDetails[4]));
+			String[] seasoningDetails = resources.getStringArray(resourceId);
+			SeasoningItem seasoningItem = buildItem(Integer.toString(i), seasoningDetails);
+			addItem(seasoningItem);
 		}
+	}
+
+	private static int resolveResourceId(Resources resources, String packageName, int i) {
+		return resources.getIdentifier(resourcePrefix  + i, resourceType, packageName);
+	}
+
+	private static boolean invalidResourceId(int resourceId) {
+		return resourceId == 0;
+	}
+
+	private static SeasoningItem buildItem(String id, String[] seasoningDetails) {
+		return new SeasoningItem(id, seasoningDetails[0], seasoningDetails[1], seasoningDetails[2], seasoningDetails[3], seasoningDetails[4]);
 	}
 
 	private static void addItem(SeasoningItem item) {
