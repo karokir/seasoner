@@ -1,5 +1,6 @@
 package pl.karol.k.seasoner;
 
+import android.R.color;
 import android.app.Activity;
 import android.os.Bundle;
 import android.app.ListFragment;

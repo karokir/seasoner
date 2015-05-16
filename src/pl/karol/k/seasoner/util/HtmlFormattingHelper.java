@@ -1,4 +1,4 @@
-package pl.karol.k.seasoner.seasoning;
+package pl.karol.k.seasoner.util;
 
 public class HtmlFormattingHelper {
 
