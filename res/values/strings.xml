@@ -5,8 +5,6 @@
     <string name="title_seasoning_detail">Seasoning Detail</string>
     <string name="suggested_use">Suggested use:</string>
     <string name="happybday">Happy B-Day, Andrzej!</string>
-    <string name="seasoner_green">#d9e8c9</string>
-    <string name="seasoning_green">#d0ffc5</string>
 
     <string-array name="seasoning1">
         <item>Balsamic Vinegar</item>
