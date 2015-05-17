@@ -18,7 +18,7 @@ public class SeasoningDecorator {
 	}
 
 	public String getName() {
-		return HtmlFormattingHelper.color(HtmlFormattingHelper.bold(seasoningItem.name), getColor());
+		return HtmlFormattingHelper.bold(seasoningItem.name);
 	}
 	
 	public SeasoningType getType() {
@@ -29,22 +29,22 @@ public class SeasoningDecorator {
 		int color;
 		switch (seasoningItem.type) {
 		case HERB:
-			color = Color.rgb(16, 128, 32);
+			color = Color.rgb(222, 248, 195);
 			break;
 		case SPICE:
-			color = Color.rgb(192, 0, 32);
+			color = Color.rgb(248, 199, 199);
 			break;
 		case SAUCE:
-			color = Color.rgb(192, 96, 0);
+			color = Color.rgb(251, 223, 196);
 			break;
 		case MIX:
-			color = Color.rgb(128, 0, 192);
+			color = Color.rgb(204, 177, 186);
 			break;
 		case GARNISH:
-			color = Color.rgb(0, 192, 192);
+			color = Color.rgb(192, 192, 192);
 			break;
 		default:
-			color = Color.rgb(16, 64, 192);
+			color = Color.rgb(196, 204, 226);
 			break;
 		}
 		return color;

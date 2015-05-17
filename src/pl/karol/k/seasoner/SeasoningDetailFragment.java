@@ -57,4 +57,14 @@ public class SeasoningDetailFragment extends Fragment {
 
 		return rootView;
 	}
+
+	@Override
+	public void onViewCreated(View view, Bundle savedInstanceState) {
+		super.onViewCreated(view, savedInstanceState);
+		if (mItem != null) {
+			getView().setBackgroundColor(new SeasoningDecorator(mItem).getColor());
+		} else {
+			getView().setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));
+		}
+	}
 }

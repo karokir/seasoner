@@ -6,6 +6,7 @@ import pl.karol.k.seasoner.util.ContentProvider;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.Toast;
@@ -43,7 +44,7 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 		setContentView(R.layout.activity_seasoning_list);
 
 		if (savedInstanceState == null) {
-			if(ContentProvider.ITEMS.isEmpty()) {
+			if (ContentProvider.ITEMS.isEmpty()) {
 				ContentProvider.populateItemContainers(this);
 			}
 		}
@@ -58,6 +59,7 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			showBDayMessage();
 		}
 
+		getWindow().getDecorView().setBackgroundColor(Color.parseColor(getString(R.string.seasoner_green)));
 	}
 
 	private boolean bDay() {

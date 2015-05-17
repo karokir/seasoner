@@ -1,15 +1,14 @@
 package pl.karol.k.seasoner;
 
-import android.R.color;
+import pl.karol.k.seasoner.seasoning.SeasoningItem;
+import pl.karol.k.seasoner.util.ContentProvider;
 import android.app.Activity;
-import android.os.Bundle;
 import android.app.ListFragment;
+import android.graphics.Color;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import pl.karol.k.seasoner.seasoning.SeasoningItem;
-import pl.karol.k.seasoner.util.ContentProvider;
 
 /**
  * A list fragment representing a list of Seasonings. This fragment also
@@ -84,6 +83,9 @@ public class SeasoningListFragment extends ListFragment {
 		if (savedInstanceState != null && savedInstanceState.containsKey(STATE_ACTIVATED_POSITION)) {
 			setActivatedPosition(savedInstanceState.getInt(STATE_ACTIVATED_POSITION));
 		}
+		getListView().setBackgroundColor(Color.parseColor(getString(R.string.seasoner_green)));
+		getView().setBackgroundColor(Color.parseColor(getString(R.string.seasoner_green)));
+//		getView().setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));
 	}
 
 	@Override

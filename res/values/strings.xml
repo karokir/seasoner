@@ -4,6 +4,10 @@
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Seasoning Detail</string>
     <string name="happybday">Happy B-Day, Andrzej!</string>
+    
+    <string name="seasoner_green">#d9e8c9</string>
+
+    <string name="seasoning_green">#d0ffc5</string>
 
     <string-array name="seasoning1">
         <item>Balsamic Vinegar</item>
@@ -192,7 +196,7 @@
         <item>other</item>
         <item>Pretty self-expainatory, don\'t you think?</item>
         <item>Secret ingredient to a perfect tomato sauce: ~1 teaspoon, maybe less, per a can (400g-450g) of chopped tomatoes.</item>
-        <item>Experiment! Try using cane sugar e.g. adding to oriental sauces.</item>
+        <item>Experiment! Try using cane sugar e.g. adding a pinch or two to oriental sauces.</item>
     </string-array>
     <string-array name="seasoning29">
         <item>Tandoori Masala</item>
