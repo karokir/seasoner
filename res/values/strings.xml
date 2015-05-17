@@ -18,7 +18,7 @@
         <item>herb</item>
         <item>One of the most widely used herbs belonging to the mint family.</item>
         <item>Great for tomato sauces, pesto, and vinaigrettes; also to season eggplant, zucchini and alike.</item>
-        <item>Fresh basil leaves have a whole different taste than the dried ones - try making a tomato salad and season it only with freshlu cut basil.</item>
+        <item>Fresh basil leaves have a whole different taste than the dried ones - try making a tomato salad and season it only with freshly cut basil.</item>
     </string-array>
     <string-array name="seasoning3">
         <item>Bay Leaf</item>
@@ -233,7 +233,7 @@
     <string-array name="seasoning34">
         <item>Soy Sauce</item>
         <item>sauce</item>
-        <item>Made from soy beans.</item>
+        <item>Made from fermented soy beans.</item>
         <item>Used in many oriental dishes.</item>
         <item>Use light version for poultry and fish, dark version - for pork, beef and other \'dark\' meat. Be careful - it\'s quite salty.</item>
     </string-array>

@@ -149,9 +149,9 @@
     <string-array name="seasoning21">
         <item>Gałka muszkatołowa</item>
         <item>spice</item>
-        <item>From the nutmeg tree this kernel of fruit is one of the oldest of known spices.</item>
-        <item>In cream soups, and sauces, and a wide variety of desserts, béchamel sauce and shepherd\'s pie.</item>
-        <item>More aromatic when freshly crushed or grated.</item>
+        <item>Nasiona muszkatołowca korzennego to jedna z najstarszych znanych przypraw.</item>
+        <item>zupy i sosy na bazie śmietany (w szczególności sos beszamelowy); w deserach, zapiekance pasterskiej, jako składnich mieszanek korzennych i przypraw piernikowych.</item>
+        <item>Świeża starta lub zmiażdżona est bardziej aromatyczna.</item>
     </string-array>
     <string-array name="seasoning22">
         <item>Oregano</item>
@@ -233,9 +233,9 @@
     <string-array name="seasoning34">
         <item>Sos sojowy</item>
         <item>sauce</item>
-        <item>Made from soy beans.</item>
-        <item>Used in many oriental dishes.</item>
-        <item>Use light version for poultry and fish, dark version - for pork, beef and other \'dark\' meat. Be careful - it\'s quite salty.</item>
+        <item>Wytworzony z przefermentowanych zairen soi.</item>
+        <item>potrawy orintalne, sosy, marynaty.</item>
+        <item>Jasnego sosu sojowego używaj do drobiu i ryb, ciemnego  - do wieprzowiny, wołowiny, dziczyzny itp. Ostrożnie z ilością - jest dosyć słony.</item>
     </string-array>
     
 </resources>
