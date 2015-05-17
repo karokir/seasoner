@@ -3,147 +3,148 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Szczegóły przyprawy</string>
+    <string name="suggested_use">Sugerowane zastosowanie:</string>
     <string name="happybday">Wszystkiego najlepszego, Andrzeju!</string>
 
     <string-array name="seasoning1">
         <item>Ocet balsamiczny</item>
         <item>sauce</item>
-        <item>Made from a reduction of cooked grape juice, and used as a condiment.</item>
-        <item>In salad dressings, dips, marinades, reductions and sauces.</item>
-        <item>Dissolve sugar in balsamic vinegar and use such dressing to season strawberries (e.g. sandwiches or salad with riccota, rucola, and strawberries).</item>
+        <item>Zredukowany sok winogronowy.</item>
+        <item>w dressingach do sałatek, dipach, marynatach, sosach.</item>
+        <item>W occie balsmicznym rozpuść cukier i użyj do przyprawiania truskawek (np. kanapek albo sałatki z riccotą, rukolą i truskawkami).</item>
     </string-array>
     <string-array name="seasoning2">
         <item>Bazylia</item>
         <item>herb</item>
-        <item>Belonging to the mint family this herb is one of the most widely used.</item>
-        <item>Great for tomato sauces, pesto, and vinaigrettes; also: eggplant or zucchini.</item>
-        <item>Do not add too early or it will loose both colour and flavour; fresh basil leaves have a whole defferent taste than the dried ones - try making a tomato salad and season it only with fresh basil.</item>
+        <item>Zioło cieszące się dużą popularnością</item>
+        <item>świetnie nadaje się do sosów pomidorowych, pesto, sosów vinaigrette; dobra do przyprawiania bakłażana, cukinii i podobnych.</item>
+        <item>Świeże liście bazylii mają zupełnie inny smak niż suszone - spróbuj sałatki z posiekanych pomidorów przyprawionej jedynie świeżą bazylią.</item>
     </string-array>
     <string-array name="seasoning3">
         <item>Liść laurowy</item>
         <item>other</item>
-        <item>Dried leaves of the laurel shrub.</item>
-        <item>Adds a woodsy background note to soups, stews, stocks, sauces, marinades, and such.</item>
-        <item>Take it out when the meal is ready.</item>
+        <item>Suszone liście krzewu laurowego.</item>
+        <item>potrawom takim jak zupy, sosy, gulasze, potrawki dodaje leśnej nuty zapachowej.</item>
+        <item>Po ugotowaniu można wyjąć, żeby nie trafił na talerz.</item>
     </string-array>
     <string-array name="seasoning4">
         <item>Kminek</item>
         <item>spice</item>
-        <item>Dried aromatic seeds from herb of the carrot family.</item>
-        <item>In rye bread, sauerkraut, cakes, and cookies, also in cheese.</item>
-        <item>Under no circumstances treat me with caraway-seasoned bread (unless you really wish to see me spit).</item>
+        <item>Suszone nasiona o aromatycznym zapachu i lekko piekącym, korzennym smaku.</item>
+        <item>kapusta, chleb, ciasta i cisteczka, a także ser.</item>
+        <item>Pod żadnym pozorem nie częstuj mnie chlebem z kminkiem (chyba że bardzo chcesz zobaczyć, jak pluję).</item>
     </string-array>
     <string-array name="seasoning5">
         <item>Kardamon</item>
         <item>spice</item>
-        <item>Seeds belonging to the ginger family.</item>
-        <item>The seeds are used for pickling, and assorted pastries; great for coffee!</item>
-        <item>Crush the seeds and mix with ground coffee that you put into coffee-maker.</item>
+        <item>Nasiona z rodziny imbirowatych.</item>
+        <item>nasion można używać do piklowania oraz przypawiania wypieków; świetny do kawy!</item>
+        <item>Pokrusz lub zmiel nasiona kardamonu, a następnie zmieszaj z kawą podawaną do ekspresu.</item>
     </string-array>
     <string-array name="seasoning6">
         <item>Pieprz kajeński</item>
         <item>spice</item>
-        <item>Made from dried and ground red chili peppers. Adds a sweet heat to soups, braises, and spice mixes.</item>
-        <item>Perfect for Mexican cuisine and dark meat.</item>
-        <item>Easy on it, or it might get too hot.</item>
+        <item>Suszone a następnie zmielone czerwone papryczki chili.</item>
+        <item>świetny do dań kuchni meksykańskiej, ciemnego mięsa i sosów.</item>
+        <item>Delikatnie z ilością, bo może się zrobić zbyt gorąco.</item>
     </string-array>
     <string-array name="seasoning7">
         <item>Szczypiorek</item>
         <item>other</item>
-        <item>Long green leaves. Has a mild onion-like flavor.</item>
-        <item>As a garnish, in soups or sauces, in salads, egg or potato dishes, with cottage cheese etc.</item>
-        <item>Can be used fresh or freeze dried.</item>
+        <item>Długie zielone liście o lekko cebulowym posmaku.</item>
+        <item>jako ozdoba, ale również w zupach, sosach, saładkach, z jajkami lub pomidorami, z serkiem wiejskim itp.</item>
+        <item>Można używać świeżego lub mrożonego.</item>
     </string-array>
     <string-array name="seasoning8">
         <item>Cynamon</item>
         <item>spice</item>
-        <item>Bark from various trees of the cinnamon family.</item>
-        <item>Ground for bake goods or whole for pickles, hot drinks, and preserves.</item>
-        <item>If there are apples inside, it probably won\'t hurt to add some cinnamon.</item>
+        <item>Kora drzewa cynamonowego.</item>
+        <item>mielony do wypieków, w całości do piklowania czy gorących napojów.</item>
+        <item>Z jabłkami - jeśli w czymś są jabłka, to prawdopodobnie nie zaszkodzi dodać odrobinę cynamonu.</item>
     </string-array>
     <string-array name="seasoning9">
         <item>Goździki</item>
         <item>spice</item>
-        <item>Dried flower buds of the clove tree, rich and pungent in flavor.</item>
-        <item>In pickling, baked hams, stocks, desserts, marinades, and spiced drinks.</item>
-        <item>Irreplaceable in mulled wine or beer.</item>
+        <item>Suszone pączki kwiatów drzewa goździkowego o ostrym, bogatym zapachu i smaku.</item>
+        <item>pikle, pieczone szynki, marynaty, drinki.</item>
+        <item>Niezastąpiony podczas przygotowywania grzanego wina lub piwa.</item>
     </string-array>
     <string-array name="seasoning10">
         <item>Kmin rzymski</item>
         <item>spice</item>
-        <item>Member of the carrot family. Aromatic seeds. Warm bitter flavor.</item>
-        <item>In chili powders, pickles, spare ribs, and other meat dishes.</item>
-        <item>Avoid if inviting me for dinner.</item>
+        <item>Aromatyczne nasiona z rodziny selerowtych. Gorzkawe w smaku.</item>
+        <item>żeberka i inne dania mięsne, pikle.</item>
+        <item>Unikaj, jeśli zapraszasz mnie na kolację.</item>
     </string-array>
     <string-array name="seasoning11">
         <item>Kolendra</item>
         <item>herb</item>
-        <item>This herb of the carrot family, has the flavor of sage and lemon peel.</item>
-        <item>Pickles, oriental dishes, curried dishes, and meat dishes.</item>
-        <item>Cannot tell - don\'t have much experince with it.</item>
+        <item>W zapachu łączy aromat szałwi i skórki cytrynowej.</item>
+        <item>dania orientalne, wszelkiego rodzaju potrawki curry.</item>
+        <item>Nie wiem, co więcej - nie mam jeszcze specjalnego doświadczenia z kolendrą.</item>
     </string-array>
     <string-array name="seasoning12">
         <item>Curry</item>
         <item>mix</item>
-        <item>A blend of India spices of varying proportions. Usually containing turmeric, garlic, coriander, cumin, and ginger.</item>
-        <item>To make curry sauce; flavor meats, rice , poultry, and seafood with an oriental touch.</item>
-        <item>Add some when boiling rice to obtain yellow shade.</item>
+        <item>Mieszkanka przypraw indyjskich. Przeważnie zawiera szfran, czosnek, kolendrę, kminek oraz imbir.</item>
+        <item>sosy i potrawki curry; do przyprawiania mięsa, ryżu, owoców morza.</item>
+        <item>Można dodać do wody podczas gotowania ryżu, żeby zabarwić go na żółto.</item>
     </string-array>
     <string-array name="seasoning13">
         <item>Koperek</item>
         <item>other</item>
-        <item>Aromatic herb pertaining to the carrot family.</item>
-        <item>Good with fish, potatoes, soups, and sauces, especially those cream-based.</item>
-        <item>Can be used fresh or freeze dried.</item>
+        <item>Aromatyczne zioło z rodziny selerowatych.</item>
+        <item>dobry do ryb, ziemniaków, zup, sosów - szczególnie śmietanowych.</item>
+        <item>Można używać świeżego lub mrożonego.</item>
     </string-array>
     <string-array name="seasoning14">
         <item>Czosnek</item>
         <item>other</item>
-        <item>Flavored bulb of the onion family; available in powder, salt, minced, or chopped.</item>
-        <item>Used in almost any type of sauce for meats, seafood, or poultry. Great for pastas, soups, etc.</item>
-        <item>If you\'re planning on putting spinach in it, you should probably start with a clove of garlic.</item>
+        <item>Bulwa z rodziny cebulowatych; dostępny w różnych postaciach: sproszkowany, siekany, jako sól itd.</item>
+        <item>baza większości sosów do mięs, drobiu, owoców morza; świetny także do makaronów oraz zup.</item>
+        <item>Jeśli planujesz robić coś ze szpinaku, powinieneś prawdopodobnie zacząć od ząbka czosnku.</item>
     </string-array>
     <string-array name="seasoning15">
         <item>Imbir</item>
         <item>spice</item>
-        <item>Dried pungent root of a plant grown in the Far East.</item>
-        <item>In pickles, chutney, and preserves. Perfect for many oriental dishes, to season meat and/or sauces. Goes very well with dishes containing mango, coconut milk, pineapple etc. And pumpkin!</item>
-        <item>Fresh ginger root tastes amazingly, but is also VERY hot - use with care. Needs peeling and then either grating or mincing.</item>
+        <item>Korzeń rośliny z Dalekigo Wschodu.</item>
+        <item>Idealny do dań orintalnych, do przyprawiania mięc, sosów, do marynat; świetnie komponuje się w szczególności z mango, mlekiem kokosowym, ananasem itp. I z dynią! Można także dodawać do piklowania.</item>
+        <item>Świeży korzeń imbiru smakuje cudownie, ale jest bardzo ostry - używaj ostrożnie. Po obraniu można go zetrzeć na tarce albo drobno posiekać.</item>
     </string-array>
     <string-array name="seasoning16">
         <item>Pieprz ziołowy</item>
         <item>mix</item>
-        <item>Composed of coriander, cumin, marjoram, and other popular spices and herbs; commonly used in Polish cuisine.</item>
-        <item>Meat, marinades, sauces.</item>
-        <item>Very universal blend - so be carefull not to overuse, or you\'ll end up with all youe meals tasting alike.</item>
+        <item>Zawiera kolendrę, kminek, majeranek i inne popularne przyprawy; często stosowany w kuchni polskiej.</item>
+        <item>do przyprawiania mięsa, marynat, sosów.</item>
+        <item>Bardzo uniwersalna mieszanka - trzeba uważać, żeby nie nadużywać, bo skończy się tym, że wszystkie dania będą smakować tak samo.</item>
     </string-array>
     <string-array name="seasoning17">
         <item>Jagody jałowca</item>
         <item>other</item>
-        <item>Dried berries of the evergreen shrub.</item>
-        <item>In sauerkraut, the making of gin, and many game dishes.</item>
-        <item>Try adding some to a stew/goulash.</item>
+        <item>Suszone jagody krzaku jałowca.</item>
+        <item>w kapuście kiszonej, do przyrządzania dżinu, w potrawach z dziczyzny.</item>
+        <item>Polecam dodanie do gulaszu.</item>
     </string-array>
     <string-array name="seasoning18">
         <item>Lubczyk</item>
         <item>herb</item>
-        <item>Its flavor and smell is somewhat similar to celery. It used to be belived to bring good luck in love.</item>
-        <item>The leaves can be used in salads, or to make soup or season broths.</item>
-        <item>Maggi seasoning sauce is basically a lovage extract - so whereever you feel like using artificial sauce, you can replace it with lovage.</item>
+        <item>W zapachu i smaku nieco podobny do selera. Kiedyś wierzono, że przynosi szczęście w miłości.</item>
+        <item>można użuwać do sałatek oraz do przyprawiania rosołu, zup i wywarów.</item>
+        <item>Sos Maggi to praktycznie ekstrakt z lubczyku - więc zamiast sztucznej przyprawy można użyć lubczyku.</item>
     </string-array>
     <string-array name="seasoning19">
         <item>Majeranek</item>
         <item>herb</item>
-        <item>This herb belonging to the mint family is potent in flavor.</item>
-        <item>Poultry stuffing, sausage, stews, sauces, soups, veal dishes, meat dishes, potato dishes, and most Italian sauces; great whereever there are tomatoes.</item>
-        <item>Do not add too early to boiling sauce or it will loose both colour and flavour.</item>
+        <item>Łagodniejszy w smaku niż oregano.</item>
+        <item>do nadziewania drobiu, przyprawiania kiełbasek, potrawek, sosów, zup, dań z cielęciny, dziczyzny, drobiu; świetny także do dań z pomidorów.</item>
+        <item>Nie wrzucaj zbyt wcześnie do gotujących sosów, bo straci kolor i smak..</item>
     </string-array>
     <string-array name="seasoning20">
         <item>Mięta</item>
         <item>herb</item>
-        <item>Cool pungent flavored herb.</item>
-        <item>Not only as a garnish; use in lamb dishes, or e.g. in zucchini cream soup.</item>
-        <item>Compliments both sweet and savory dishes.</item>
+        <item>Zioło o charaktrystycznym, świeżym aromacie.</item>
+        <item>nie tylko jako ozdoba; do dań z baraniny albo np. zypy z cukinii.</item>
+        <item>Pasuje zarówno do słodkich jak i słonych dań.</item>
     </string-array>
     <string-array name="seasoning21">
         <item>Gałka muszkatołowa</item>
@@ -155,79 +156,79 @@
     <string-array name="seasoning22">
         <item>Oregano</item>
         <item>herb</item>
-        <item>Wild marjoram.</item>
-        <item>In Italian dishes, soups or sauces, meat stews, and in bean dishes.</item>
-        <item>Do not add too early or it will loose both colour and flavour.</item>
+        <item>Dziki majeranek.</item>
+        <item>w potrawach kuchni włoskiej, w zupach sosach, potrawkach mięsnych, do dań z fasoli.</item>
+        <item>Do gotujących się sosów nie dodawaj zbyt wcześnie, bo może stracić kolor i aromat.</item>
     </string-array>
     <string-array name="seasoning23">
         <item>Papryka</item>
         <item>spice</item>
-        <item>Adds a sweet note and a red color; and a hot aftertaste when you choose  a spicy version labeled hot paprika.</item>
-        <item>Used in stews, sauces, marinades, for meat seasoning.</item>
-        <item>Ingredient in many spice blends, so do not overuse when combining e.g with herbal pepper.</item>
+        <item>Dodaje słodkości czerwonego koloru; a także ostrości, jeśli wybierzesz ostrą wersję.</item>
+        <item>w potrawkach, sosach, marynatach, do przyprawiania mięsa.</item>
+        <item>Składnik wielu mieszanek, więc nie należy nadużywać, jeśli łaczymy np. z pieprzem ziołowym.</item>
     </string-array>
     <string-array name="seasoning24">
         <item>Pieprz</item>
         <item>spice</item>
-        <item>Black pepper is the immature berries. White pepper is the mature berries with the hull removed.</item>
-        <item>Whole in stocks, and pickling. Ground in most other dishes.</item>
-        <item>White pepper is more delicate.</item>
+        <item>Czarny pieprz to niedojrzałe jagody; biały - dojrzałe i pozbawione łupiny.</item>
+        <item>całe ziarna do piklowania i sosów; mielony w większości innych potraw.</item>
+        <item>Biały pieprz jest delikatniejszy.</item>
     </string-array>
     <string-array name="seasoning25">
         <item>Rozmaryn</item>
         <item>herb</item>
-        <item>Belonging to the mint family.</item>
-        <item>Stuffing, roasted/grilled meat such as lamb, pork, beef, poultry, and wild game. Great with eggs, beans, and potatoes.</item>
-        <item>If possible, try using fresh leaves!</item>
+        <item>Aromatyczne zioło.</item>
+        <item>do wszlekiego rodzaju nadzienia do mięs, do przyprawiania wszelkiego rodzaju pieczonego lub grilowanego mięsa. dobrze smakuje z jajkami, fasolką, ziemniakami.</item>
+        <item>Jeśli masz możliwość, spróbuj użyć świeżych liści!</item>
     </string-array>
     <string-array name="seasoning26">
         <item>Szałwia</item>
         <item>herb</item>
-        <item>A dried leaf of a shrub belonging to the mint family. Pine-like flavor, with more lemony and eucalyptus notes than rosemary.</item>
-        <item>Strong in flavor. Used to season stuffing, pork, poultry, and veal dishes.</item>
-        <item>If putting into sauce or soup, do not add too early.</item>
+        <item>Liście o nieco sosnowym aromacie, z nutami cytryny i eukaliptusa silniejszymi niż w przypadku rozmarynu.</item>
+        <item>dość mocna w smaku, używana do przyprawiania mięs i sosów.</item>
+        <item>Spróbuj świeżej szałwi.</item>
     </string-array>
     <string-array name="seasoning28">
         <item>Cukier</item>
         <item>other</item>
-        <item>Pretty self-expainatory, don\'t you think?</item>
-        <item>Secret ingredient to a perfect tomato sauce: ~1 teaspoon, maybe less, per a can (400g-450g) of chopped tomatoes.</item>
-        <item>Experiment! Try using cane sugar e.g. adding to oriental sauces.</item>
+        <item>Tu chyba nie trzeba wyjaśniać, prawda?</item>
+        <item>Sekretny składnik idealnego sosu pomidorowego: ~1 łyżeczka na puszkę (400g-450g) pomidorów.</item>
+        <item>Eksperymentuj! Spróbuje dodać szczyptę cukru trzcinowego do orientalnych sosów.</item>
     </string-array>
     <string-array name="seasoning29">
         <item>Tandoori Masala</item>
         <item>mix</item>
-        <item>A blend of variety of India spices of different proportions.</item>
-        <item>All varieties of dark meat and sauces.</item>
-        <item>Spread a pinch over pierogi with meat filling!</item>
+        <item>Mieszanka przypraw indyjskich.</item>
+        <item>nadaje się do wszelkiego rodzaju ciemnych mięs i sosów, dobra także do drobiu.</item>
+        <item>Posyp nią pierogi z mięsem!</item>
     </string-array>
     <string-array name="seasoning30">
         <item>Estragon</item>
         <item>herb</item>
-        <item>Aromatic leaves of a bitter flavor.</item>
-        <item>Béarnaise sauce, egg, seafood, and poultry dishes; also: great with zucchini and spinach.</item>
-        <item>If putting into sauce or soup, do not add too early, or it will loose its aroma and flavour.</item>
+        <item>Aromatyczne liście o lekko gorzkawym smaku.</item>
+        <item>sos bearneński, jajka, owoce morza, dania z drobiu; świetny także do cukinii, szpinaku, gruszki.</item>
+        <item>Jeśli chodzi o sosy i zupy, to należy dodawać raczej pod koniec gotowania.</item>
     </string-array>
     <string-array name="seasoning31">
         <item>Tymianek</item>
         <item>herb</item>
-        <item>A rich flavored herb, kind of woodsy.</item>
-        <item>Seafood chowders, sauces, stocks, and meat dishes.</item>
-        <item>If putting into sauce, do not add too early.</item>
+        <item>Zioło o bogatym, leśnym zapachu.</item>
+        <item>owoce morza, sosy, dania mięsne.</item>
+        <item>Ostrożnie, bo łatwo przesadzić.</item>
     </string-array>
     <string-array name="seasoning32">
         <item>Ocet winny</item>
         <item>sauce</item>
-        <item>Made from red or white wine, characterised by acidic taste.</item>
-        <item>In food preparation, in particular in pickling processes, marinades, vinaigrettes, and other salad dressings; an ingredient in sauces.</item>
-        <item>Do not overuse; if you do, then it\'s the same like with salt - cannot be undone.</item>
+        <item>Na bazie białego lub czerwonego wina, o charakterystycznym kwaskowatym smaku.</item>
+        <item> do piklowania, przygotowywania marynat, sosów vinaigrette, dressingów sałatkowych i sosów.</item>
+        <item>Nie nadużywać; tutaj jak z solą - jak raz się przedobrzy, to potem już nie da się tego odkręcić.</item>
     </string-array>
     <string-array name="seasoning33">
         <item>Zioła prowansalskie</item>
         <item>mix</item>
-        <item>A mixture of dried herbs typical of the Provence region of southeast France.Commercial mixtures typically contain basil, savory, marjoram, rosemary, thyme, oregano, and/or other herbs.</item>
-        <item>To flavour grilled foods such as fish and meat, as well as vegetable stews. The mixture can be added to foods before or during cooking or mixed with cooking oil prior to cooking so as to infuse the flavour into the cooked food. They are rarely added after cooking is complete.</item>
-        <item>Perfect for Italiano-type tomato-based sauces.</item>
+        <item>Miszanka ziół typowych dla Prowansji. Komercyjne mieszanki zazwyczaj zawierają bazylię, częber, majeranek, rozmaryn, tymianek, oregano.</item>
+        <item>do dań z grilla - zarówno mięs, ryb, jak i warzyw; do sosów i potrawek warzywnych.</item>
+        <item>Jeśli danie ma coś wspólnego z kuchnią włoską, to przeważnie dobrym pomysłem jest dodanie ziół prowansalskich.</item>
     </string-array>
     <string-array name="seasoning34">
         <item>Sos sojowy</item>

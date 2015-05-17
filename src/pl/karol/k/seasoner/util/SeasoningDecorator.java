@@ -7,11 +7,12 @@ import pl.karol.k.seasoner.seasoning.SeasoningType;
 public class SeasoningDecorator {
 
 	private final SeasoningItem seasoningItem;
-	private final String suggestedUse = "Suggested use:";
+	private final String suggestedUse;
 	private final String decorationSign = "~";
 
-	public SeasoningDecorator(SeasoningItem seasoningItem) {
+	public SeasoningDecorator(SeasoningItem seasoningItem, String suggestedUse) {
 		this.seasoningItem = seasoningItem;
+		this.suggestedUse = suggestedUse;
 	}
 
 	public String getFormattedString() {

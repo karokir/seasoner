@@ -3,6 +3,7 @@
 
     <string name="app_name">seasoner</string>
     <string name="title_seasoning_detail">Seasoning Detail</string>
+    <string name="suggested_use">Suggested use:</string>
     <string name="happybday">Happy B-Day, Andrzej!</string>
     <string name="seasoner_green">#d9e8c9</string>
     <string name="seasoning_green">#d0ffc5</string>
@@ -45,8 +46,8 @@
     <string-array name="seasoning6">
         <item>Cayenne Pepper</item>
         <item>spice</item>
-        <item>Made from dried and ground red chili peppers. Adds a sweet heat to soups, braises, and spice mixes.</item>
-        <item>Perfect for Mexican cuisine, dark meat and sauces.</item>
+        <item>Made from dried and ground red chili peppers.</item>
+        <item>Perfect for Mexican cuisine, dark meat and sauces. Adds a sweet heat to soups, braises, and spice mixes.</item>
         <item>Easy on it, or it might get too hot.</item>
     </string-array>
     <string-array name="seasoning7">
@@ -227,7 +228,7 @@
     <string-array name="seasoning33">
         <item>Herbes de Provence</item>
         <item>mix</item>
-        <item>A mixture of dried herbs typical of the Provence region of southeast France.Commercial mixtures typically contain herbs like basil, savory, marjoram, rosemary, thyme, oregano.</item>
+        <item>A mixture of dried herbs typical of the Provence region of southeast France. Commercial mixtures typically contain herbs like basil, savory, marjoram, rosemary, thyme, oregano.</item>
         <item>To flavour grilled foods such as fish and meat, as well as vegetable stews. The mixture can be added to foods before or during cooking or mixed with cooking oil prior to cooking so as to infuse the flavour into the cooked food. They are rarely added after cooking is complete.</item>
         <item>Perfect for Italiano-type tomato-based sauces.</item>
     </string-array>

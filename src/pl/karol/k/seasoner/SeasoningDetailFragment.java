@@ -50,7 +50,7 @@ public class SeasoningDetailFragment extends Fragment {
 		View rootView = inflater.inflate(R.layout.fragment_seasoning_detail, container, false);
 
 		if (mItem != null) {
-			SeasoningDecorator seasoningDecorator = new SeasoningDecorator(mItem);
+			SeasoningDecorator seasoningDecorator = new SeasoningDecorator(mItem, getResources().getString(R.string.suggested_use));
 			String formattedSeasoning = seasoningDecorator.getFormattedString();
 			((TextView) rootView.findViewById(R.id.seasoning_detail)).setText(Html.fromHtml(formattedSeasoning));
 		}
