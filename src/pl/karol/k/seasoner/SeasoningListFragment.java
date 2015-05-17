@@ -83,9 +83,6 @@ public class SeasoningListFragment extends ListFragment {
 		if (savedInstanceState != null && savedInstanceState.containsKey(STATE_ACTIVATED_POSITION)) {
 			setActivatedPosition(savedInstanceState.getInt(STATE_ACTIVATED_POSITION));
 		}
-		getListView().setBackgroundColor(Color.parseColor(getString(R.string.seasoner_green)));
-		getView().setBackgroundColor(Color.parseColor(getString(R.string.seasoner_green)));
-//		getView().setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));
 	}
 
 	@Override

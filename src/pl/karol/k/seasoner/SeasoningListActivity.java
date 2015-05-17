@@ -59,7 +59,6 @@ public class SeasoningListActivity extends Activity implements SeasoningListFrag
 			showBDayMessage();
 		}
 
-		getWindow().getDecorView().setBackgroundColor(Color.parseColor(getString(R.string.seasoner_green)));
 	}
 
 	private boolean bDay() {

@@ -37,7 +37,7 @@ public final class ContentProvider {
 				continue;
 			}
 			String[] seasoningDetails = resources.getStringArray(resourceId);
-			SeasoningItem seasoningItem = buildItem(Integer.toString(i), seasoningDetails);
+			SeasoningItem seasoningItem = buildItem(resourceNamePrefix + i, seasoningDetails);
 			addItem(seasoningItem);
 		}
 		Collections.sort(ITEMS);

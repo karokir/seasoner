@@ -8,13 +8,22 @@ public class SeasoningDecorator {
 
 	private final SeasoningItem seasoningItem;
 	private final String suggestedUse = "Suggested use:";
+	private final String decorationSign = "~";
 
 	public SeasoningDecorator(SeasoningItem seasoningItem) {
 		this.seasoningItem = seasoningItem;
 	}
 
 	public String getFormattedString() {
-		return getName() + getDescription() + getUse() + getTip();
+		return getName() + HtmlFormattingHelper.breakAround(getDecorationBar(seasoningItem.name.length())) + getDescription() + getUse() + getTip() + getDecorationBar(1);
+	}
+
+	private String getDecorationBar(int howLong) {
+		String decorationBar = "";
+		for(int i = 0; i <  howLong; ++i) {
+			decorationBar += decorationSign;
+		}
+		return HtmlFormattingHelper.color(HtmlFormattingHelper.bold(decorationBar), getColor());
 	}
 
 	public String getName() {
@@ -29,22 +38,22 @@ public class SeasoningDecorator {
 		int color;
 		switch (seasoningItem.type) {
 		case HERB:
-			color = Color.rgb(222, 248, 195);
+			color = Color.parseColor("#84c040");
 			break;
 		case SPICE:
-			color = Color.rgb(248, 199, 199);
+			color = Color.parseColor("#f04400");
 			break;
 		case SAUCE:
-			color = Color.rgb(251, 223, 196);
+			color = Color.parseColor("#f0c500");
 			break;
 		case MIX:
-			color = Color.rgb(204, 177, 186);
+			color = Color.parseColor("#c04064");
 			break;
 		case GARNISH:
-			color = Color.rgb(192, 192, 192);
+			color = Color.parseColor("#863670");
 			break;
 		default:
-			color = Color.rgb(196, 204, 226);
+			color = Color.parseColor("#408bc0");
 			break;
 		}
 		return color;
