@@ -3,6 +3,7 @@ package pl.karol.k.seasoner.util;
 import android.graphics.Color;
 import pl.karol.k.seasoner.seasoning.SeasoningItem;
 import pl.karol.k.seasoner.seasoning.SeasoningType;
+import pl.karol.k.seasoner.util.HtmlFormattingHelper.HtmlTag;
 
 public class SeasoningDecorator {
 
@@ -16,7 +17,7 @@ public class SeasoningDecorator {
 	}
 
 	public String getFormattedString() {
-		return getName() + HtmlFormattingHelper.breakAround(getDecorationBar(seasoningItem.name.length())) + getDescription() + getUse() + getTip() + getDecorationBar(1);
+		return getName() + HtmlTag.BREAK.getOpenCloseTag() + getDecorationBar(seasoningItem.name.length()) + HtmlTag.BREAK.getOpenCloseTag() + getDescription() + getUse() + getTip() + getDecorationBar(1);
 	}
 
 	private String getDecorationBar(int howLong) {
@@ -24,11 +25,11 @@ public class SeasoningDecorator {
 		for(int i = 0; i <  howLong; ++i) {
 			decorationBar += decorationSign;
 		}
-		return HtmlFormattingHelper.color(HtmlFormattingHelper.bold(decorationBar), getColor());
+		return HtmlFormattingHelper.color(HtmlFormattingHelper.formatt(decorationBar, HtmlTag.BOLD), getColor());
 	}
 
 	public String getName() {
-		return HtmlFormattingHelper.bold(seasoningItem.name);
+		return HtmlFormattingHelper.formatt(seasoningItem.name, HtmlTag.BOLD);
 	}
 	
 	public SeasoningType getType() {
@@ -61,17 +62,14 @@ public class SeasoningDecorator {
 	}
 
 	public String getDescription() {
-		String small = HtmlFormattingHelper.small(seasoningItem.description);
-		return HtmlFormattingHelper.paragraph(small);
+		return HtmlFormattingHelper.formatt(seasoningItem.description, HtmlTag.PARAGRAPH, HtmlTag.SMALL);
 	}
 
 	public String getUse() {
-		String small = HtmlFormattingHelper.small(HtmlFormattingHelper.bold(suggestedUse) + " " + seasoningItem.use);
-		return HtmlFormattingHelper.paragraph(small);
+		return HtmlFormattingHelper.formatt((HtmlFormattingHelper.formatt(suggestedUse, HtmlTag.BOLD) + " " + seasoningItem.use), HtmlTag.PARAGRAPH, HtmlTag.SMALL);
 	}
 
 	public String getTip() {
-		String small = HtmlFormattingHelper.small(seasoningItem.tip);
-		return HtmlFormattingHelper.paragraph(small);
+		return HtmlFormattingHelper.formatt(seasoningItem.tip, HtmlTag.PARAGRAPH, HtmlTag.SMALL);
 	}
 }
