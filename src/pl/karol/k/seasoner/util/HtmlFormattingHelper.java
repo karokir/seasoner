@@ -3,28 +3,36 @@ package pl.karol.k.seasoner.util;
 public class HtmlFormattingHelper {
 
 	public enum HtmlTag {
-		BOLD("b"), ITALIC("i"), PARAGRAPH("p"), SMALL("small"), BREAK("br");
-		
+		BOLD("b"), ITALIC("i"), PARAGRAPH("p"), SMALL("small"), BREAK("br"), FONT("font");
+
 		private String tag;
-		
+		private int color;
+
 		HtmlTag(String tag) {
 			this.tag = tag;
 		}
 		
+		HtmlTag setColor(int color) {
+			this.color = color;
+			return this;
+		}
+
 		String openTag() {
-			return "<" + tag + ">";
+			String openTag = "<" + tag;
+			if(color != 0) {
+				openTag += " color=\"" + color + "\"";
+			}
+			openTag += ">";
+			return openTag;
 		}
 
 		String closeTag() {
 			return "</" + tag + ">";
 		}
-		
-		String getOpenCloseTag() {
-			return "<" + tag + "/>";
-		}
+
 	}
 
-	public static String formatt(String string, HtmlTag...tags) {
+	public static String format(String string, HtmlTag... tags) {
 		for (HtmlTag tag : tags) {
 			string = applyFormatting(string, tag);
 		}
@@ -33,9 +41,5 @@ public class HtmlFormattingHelper {
 
 	private static String applyFormatting(String string, HtmlTag tag) {
 		return tag.openTag() + string + tag.closeTag();
-	}
-	
-	public static String color(String string, int color) {
-		return "<font color=\"" + color + "\">" + string + "</font>";
 	}
 }

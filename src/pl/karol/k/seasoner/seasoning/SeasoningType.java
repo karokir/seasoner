@@ -4,28 +4,13 @@ public enum SeasoningType {
 
 	HERB, SPICE, MIX, SAUCE, GARNISH, OTHER;
 
-	public static SeasoningType resolveType(String type) {
-		SeasoningType seasoningType;
-		switch (type) {
-		case "herb":
-			seasoningType = HERB;
-			break;
-		case "spice":
-			seasoningType = SPICE;
-			break;
-		case "mix":
-			seasoningType = MIX;
-			break;
-		case "sauce":
-			seasoningType = SAUCE;
-			break;
-		case "garnish":
-			seasoningType = GARNISH;
-			break;
-		default:
-			seasoningType = OTHER;
-			break;
+	public static SeasoningType resolveSeasoningType(String typeName) {
+
+		for (SeasoningType seasoningType : SeasoningType.values()) {
+			if (seasoningType.name().equalsIgnoreCase(typeName)) {
+				return seasoningType;
+			}
 		}
-		return seasoningType;
+		return OTHER;
 	}
 }

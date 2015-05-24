@@ -137,13 +137,13 @@
         <item>herb</item>
         <item>Łagodniejszy w smaku niż oregano.</item>
         <item>do nadziewania drobiu, przyprawiania kiełbasek, potrawek, sosów, zup, dań z cielęciny, dziczyzny, drobiu; świetny także do dań z pomidorów.</item>
-        <item>Nie wrzucaj zbyt wcześnie do gotujących sosów, bo straci kolor i smak..</item>
+        <item>Nie wrzucaj zbyt wcześnie do gotujących sosów, bo straci kolor i smak.</item>
     </string-array>
     <string-array name="seasoning20">
         <item>Mięta</item>
         <item>herb</item>
         <item>Zioło o charaktrystycznym, świeżym aromacie.</item>
-        <item>nie tylko jako ozdoba; do dań z baraniny albo np. zypy z cukinii.</item>
+        <item>nie tylko jako ozdoba; do dań z baraniny albo np. zupy z cukinii.</item>
         <item>Pasuje zarówno do słodkich jak i słonych dań.</item>
     </string-array>
     <string-array name="seasoning21">
@@ -151,7 +151,7 @@
         <item>spice</item>
         <item>Nasiona muszkatołowca korzennego to jedna z najstarszych znanych przypraw.</item>
         <item>zupy i sosy na bazie śmietany (w szczególności sos beszamelowy); w deserach, zapiekance pasterskiej, jako składnich mieszanek korzennych i przypraw piernikowych.</item>
-        <item>Świeża starta lub zmiażdżona est bardziej aromatyczna.</item>
+        <item>Świeżo starta lub zmiażdżona jest bardziej aromatyczna niż kupny proszek.</item>
     </string-array>
     <string-array name="seasoning22">
         <item>Oregano</item>
