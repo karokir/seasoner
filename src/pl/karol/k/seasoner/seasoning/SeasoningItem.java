@@ -5,12 +5,12 @@ package pl.karol.k.seasoner.seasoning;
  */
 public final class SeasoningItem implements Comparable<SeasoningItem> {
 
-	public String id;
-	public String name;
-	public SeasoningType type;
-	public String description;
-	public String use;
-	public String tip;
+	private String id;
+	private String name;
+	private SeasoningType type;
+	private String description;
+	private String use;
+	private String tip;
 
 	public SeasoningItem(String id, String name, String type, String desc, String use, String tip) {
 		this.id = id;
@@ -33,4 +33,29 @@ public final class SeasoningItem implements Comparable<SeasoningItem> {
 	public int compareTo(SeasoningItem another) {
 		return this.name.compareTo(another.name);
 	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public SeasoningType getType() {
+		return type;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public String getUse() {
+		return use;
+	}
+
+	public String getTip() {
+		return tip;
+	}
+
 }

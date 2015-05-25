@@ -57,7 +57,7 @@ public final class ContentProvider {
 
 	private static void addItem(SeasoningItem item) {
 		ITEMS.add(item);
-		ITEM_MAP.put(item.id, item);
+		ITEM_MAP.put(item.getId(), item);
 	}
 
 }

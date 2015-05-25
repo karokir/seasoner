@@ -4,7 +4,6 @@ import pl.karol.k.seasoner.seasoning.SeasoningItem;
 import pl.karol.k.seasoner.util.ContentProvider;
 import android.app.Activity;
 import android.app.ListFragment;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -111,7 +110,7 @@ public class SeasoningListFragment extends ListFragment {
 
 		// Notify the active callbacks interface (the activity, if the
 		// fragment is attached to one) that an item has been selected.
-		mCallbacks.onItemSelected(ContentProvider.ITEMS.get(position).id);
+		mCallbacks.onItemSelected(ContentProvider.ITEMS.get(position).getId());
 	}
 
 	@Override

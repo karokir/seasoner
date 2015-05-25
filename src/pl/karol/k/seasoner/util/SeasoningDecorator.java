@@ -17,7 +17,7 @@ public class SeasoningDecorator {
 	}
 
 	public String getFormattedString() {
-		return getName() + HtmlTag.BREAK.openTag() + HtmlTag.BREAK.closeTag() + getDecorationBar(seasoningItem.name.length()) + HtmlTag.BREAK.openTag() + HtmlTag.BREAK.closeTag() + getDescription() + getUse() + getTip() + getDecorationBar(1);
+		return getName() + HtmlTag.BREAK.openTag() + HtmlTag.BREAK.closeTag() + getDecorationBar(seasoningItem.getName().length()) + HtmlTag.BREAK.openTag() + HtmlTag.BREAK.closeTag() + getDescription() + getUse() + getTip() + getDecorationBar(1);
 	}
 
 	private String getDecorationBar(int howLong) {
@@ -29,16 +29,16 @@ public class SeasoningDecorator {
 	}
 
 	public String getName() {
-		return HtmlFormattingHelper.format(seasoningItem.name, HtmlTag.BOLD);
+		return HtmlFormattingHelper.format(seasoningItem.getName(), HtmlTag.BOLD);
 	}
 
 	public SeasoningType getType() {
-		return seasoningItem.type;
+		return seasoningItem.getType();
 	}
 
 	public int getColor() {
 		int color;
-		switch (seasoningItem.type) {
+		switch (seasoningItem.getType()) {
 			case HERB:
 				color = Color.parseColor("#84c040");
 				break;
@@ -62,14 +62,14 @@ public class SeasoningDecorator {
 	}
 
 	public String getDescription() {
-		return HtmlFormattingHelper.format(seasoningItem.description, HtmlTag.PARAGRAPH, HtmlTag.SMALL);
+		return HtmlFormattingHelper.format(seasoningItem.getDescription(), HtmlTag.PARAGRAPH, HtmlTag.SMALL);
 	}
 
 	public String getUse() {
-		return HtmlFormattingHelper.format((HtmlFormattingHelper.format(suggestedUse, HtmlTag.BOLD) + " " + seasoningItem.use), HtmlTag.PARAGRAPH, HtmlTag.SMALL);
+		return HtmlFormattingHelper.format((HtmlFormattingHelper.format(suggestedUse, HtmlTag.BOLD) + " " + seasoningItem.getUse()), HtmlTag.PARAGRAPH, HtmlTag.SMALL);
 	}
 
 	public String getTip() {
-		return HtmlFormattingHelper.format(seasoningItem.tip, HtmlTag.PARAGRAPH, HtmlTag.SMALL);
+		return HtmlFormattingHelper.format(seasoningItem.getTip(), HtmlTag.PARAGRAPH, HtmlTag.SMALL);
 	}
 }
