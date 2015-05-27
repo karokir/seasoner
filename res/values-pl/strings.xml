@@ -130,7 +130,7 @@
         <item>herb</item>
         <item>W zapachu i smaku nieco podobny do selera. Kiedyś wierzono, że przynosi szczęście w miłości.</item>
         <item>można użuwać do sałatek oraz do przyprawiania rosołu, zup i wywarów.</item>
-        <item>Sos Maggi to praktycznie ekstrakt z lubczyku - więc zamiast sztucznej przyprawy można użyć lubczyku.</item>
+        <item>Sos Maggi to praktycznie ekstrakt z lubczyku - więc zamiast sztucznej przyprawy można użyć tego zioła.</item>
     </string-array>
     <string-array name="seasoning19">
         <item>Majeranek</item>
@@ -179,7 +179,7 @@
         <item>herb</item>
         <item>Aromatyczne zioło.</item>
         <item>do wszlekiego rodzaju nadzienia do mięs, do przyprawiania wszelkiego rodzaju pieczonego lub grilowanego mięsa. dobrze smakuje z jajkami, fasolką, ziemniakami.</item>
-        <item>Jeśli masz możliwość, spróbuj użyć świeżych liści!</item>
+        <item>Jeśli masz możliwość, użyj świeżej gałązki rozmarynu!</item>
     </string-array>
     <string-array name="seasoning26">
         <item>Szałwia</item>
@@ -193,7 +193,7 @@
         <item>other</item>
         <item>Tu chyba nie trzeba wyjaśniać, prawda?</item>
         <item>Sekretny składnik idealnego sosu pomidorowego: ~1 łyżeczka na puszkę (400g-450g) pomidorów.</item>
-        <item>Eksperymentuj! Spróbuje dodać szczyptę cukru trzcinowego do orientalnych sosów.</item>
+        <item>Eksperymentuj! Spróbuj dodać szczyptę cukru trzcinowego do orientalnych sosów.</item>
     </string-array>
     <string-array name="seasoning29">
         <item>Tandoori Masala</item>
@@ -221,7 +221,7 @@
         <item>sauce</item>
         <item>Na bazie białego lub czerwonego wina, o charakterystycznym kwaskowatym smaku.</item>
         <item> do piklowania, przygotowywania marynat, sosów vinaigrette, dressingów sałatkowych i sosów.</item>
-        <item>Nie nadużywać; tutaj jak z solą - jak raz się przedobrzy, to potem już nie da się tego odkręcić.</item>
+        <item>Nie nadużywać! Tutaj jak z solą: jak raz się przedobrzy, to potem już nie da się tego odkręcić.</item>
     </string-array>
     <string-array name="seasoning33">
         <item>Zioła prowansalskie</item>
